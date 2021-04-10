@@ -1,0 +1,99 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+html,body{
+
+	font-family: 'Comfortaa', cursive;
+
+}
+
+.navigation{
+	
+	color: #92217D;
+	
+}
+.navigation a{
+	color: #FF97FF;
+	text-decoration: none;
+	font-size: 20px;
+}
+.navigation a:hover{
+	color: white;
+	text-shadow: 6px white;
+	text-decoration: none;
+	font-size: 20px;
+
+}
+.nav-logo{
+	height: 50px;
+}
+.logo-font{
+	font-size: 18px;
+}
+
+/* The sticky class is added to the header with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 102px;
+}
+
+.header{
+
+	background-image: url("images/pink-back.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 800px;
+}
+
+.header h1{
+	margin-top: 250px;
+	font-size: 50px;
+}
+
+
+.section-1{
+	background-color: #EFC2E1;
+	color: #92217D;
+	height: 560px;
+}
+.section-1 img {
+	margin-left: 40px;
+}
+
+.contact {
+	background-image: url("images/background.png");
+	height: 700px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.contact-form {
+	margin-top: 100px;
+}
+
+.contact img{
+	height: 300px;
+	width: 400px;
+	margin-right: 30px;
+	padding: 20px;
+	margin-top: 60px;
+	
+}
+
+.sample{
+	padding: 100px;
+	border: #92217D;
+}
+
+.sample2{
+	padding: 100px;
+}
+.footer{
+	background-color: #EFC2E1;
+	padding: 50px;
+}
